@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bab7b7"
+    android:id="@+id/top"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join a Norwegian Club"
+        android:textColor="#0000ff"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/toptext"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toptext"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:id="@+id/mensaje"
+        android:text="Practice Chatting in Norwegian with other learners"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/ava1"
+        android:src="@drawable/ava1"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ava2"
+        />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/ava3"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/ava1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="45dp"
+        android:id="@+id/ava4"
+        android:src="@drawable/ava4"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ava4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/redondeado"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/btn1"
+        android:text="FIND ME A CLUB"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:layout_below="@id/btn1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/create"
+        android:textSize="20dp"
+        android:background="@drawable/redondeado"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLUB CODE"
+        android:textSize="20dp"
+        android:layout_below="@id/btn1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/redondeado"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/create">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/fe"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/fe1"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fe"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/fe1"
+            android:id="@+id/fe2"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fe"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/fe2"
+            android:id="@+id/fe3"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fe"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/fe3"
+            android:id="@+id/fe4"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/fe"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/fe4"
+            android:id="@+id/fe5"/>
+    </RelativeLayout>
+
+</RelativeLayout>
